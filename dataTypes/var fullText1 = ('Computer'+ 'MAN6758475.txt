@@ -1,0 +1,21 @@
+var fullText1 = ('Computer'+ 'MAN67584758; + Manchester Piccadilly') 
+var fullText2 = ('Computer'+ 'GNF5767465; + Greenfield') 
+var fullText3 = ('Computer'+ 'LIV5hg65hd7374; + Liverpool Lime Street')
+var fullText4 = ('Computer'+ 'SYB4f; + Stalybridge')
+var fullText5 = ('Computer'+ 'HUD5767ghtyfyr45; + Huddersfield') 
+console.log('Computer:' + computerText + ', Human:' + humanText)
+
+var txt1Divider = fullText1.slice(';')// where the semicolon is
+var computerText = fullText1.slice(0, txt1Divider);
+var humanText = fullText1.slice(0, txt1Divider);
+
+console.log('Computer: ' + firstHalf + ' ', Human: ' + secondHalf');
+
+var fullText1 = "MAN67584758;Manchester Piccadilly"
+// String Summary
+//    A set of characters surrounded by qoutes " ", ' ', ` `
+//   String are immutable, which means they cannot be changed.
+//   Use variables to create new strings
+//   Bactics vs Single or Double Quotes:
+//       - You can include Javastringswithi backticks by using ${} template literals
+//       -
